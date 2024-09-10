@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    meta(name="author", content="Alma Wettig")
+    title Projekt
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH", crossorigin="anonymous")
+    // Leaflet
+    link(rel="stylesheet", href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css", integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=", crossorigin=)
+    script(src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js", integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=", crossorigin=)
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>  
+    // Chart.js (für Diagramme)
+    script(src="https://cdn.jsdelivr.net/npm/chart.js")
+    script(src="/javascripts/chart-script.js", defer)
+    // Map
+    script(src="/javascripts/map-script.js", defer).
+    // turf.js Biblotek
+    script(src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js")
+    //Style
+    link(rel="stylesheet", href="/stylesheets/map-style.css")
+  body
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      .container-fluid
+        a.navbar-brand(href="#") Projekt
+        button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#navbarSupportedContent", aria-controls="#navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.me-auto.mb-2.mb-lg-0
+            li.nav-item
+              a.nav-link.active(aria-current="page", href="/") Dateneingabe
+            li.nav-item
+              a.nav-link(href="/map") Karten 
+            li.nav-item
+              a.nav-link(href="/impressum") Impressum 
+    br
+    p Aufgrund der Datenmengen kann es bei den Markierungen in der Karte zu längeren Wartezeiten kommen.
+    .container-fluid
+      .row
+        .col-md-8
+          .px-1.border.border-primary-subtle.border-3.rounded#my_map
+        .col-md-4
+           .chart-box.border.border-primary-subtle.border-3.rounded#my_map
+            h4 Wetterprognose für den Standort [°C]
+            #chart
+            canvas#myChart
+
+    script(src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js", integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r", crossorigin="anonymous")
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js", integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy", crossorigin="anonymous")

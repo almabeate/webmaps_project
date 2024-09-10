@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Place name": "Leipzig", 
+        "Wikipedia article": "https://de.wikipedia.org/wiki/Leipzig"
+      },
+      "geometry": {
+        "coordinates": [12.37475, 51.340333
+          
+        ],
+        "type": "Point"
+      }
+    }, 
+    {
+      "type": "Feature",
+      "properties": {
+        "Place name": "Plauen", 
+        "Wikipedia article": "https://de.wikipedia.org/wiki/Plauen"
+      },
+      "geometry": {
+        "coordinates": [12.138333, 50.495
+          
+        ],
+        "type": "Point"
+      }
+    }, 
+        {
+      "type": "Feature",
+      "properties": {
+        "Place name": "Bautzen", 
+        "Wikipedia article": "https://de.wikipedia.org/wiki/Bautzen"
+      },
+      "geometry": {
+        "coordinates": [14.423889, 51.181389
+          
+        ],
+        "type": "Point"
+      }
+    },     {
+      "type": "Feature",
+      "properties": {
+        "Place name": "Chemnitz", 
+        "Wikipedia article": "https://de.wikipedia.org/wiki/Chemnitz"
+      },
+      "geometry": {
+        "coordinates": [12.924167, 50.832222
+          
+        ],
+        "type": "Point"
+      }
+    },     {
+      "type": "Feature",
+      "properties": {
+        "Place name": "Freiberg", 
+        "Wikipedia article": "https://de.wikipedia.org/wiki/Freiberg"
+      },
+      "geometry": {
+        "coordinates": [13.34273, 50.91705
+          
+        ],
+        "type": "Point"
+      }
+    },     {
+      "type": "Feature",
+      "properties": {
+        "Place name": "Sächsische Schweiz", 
+        "Wikipedia article": "https://de.wikipedia.org/wiki/S%C3%A4chsische_Schweiz"
+      },
+      "geometry": {
+        "coordinates": [14.143465, 
+                        50.920395],        
+        "type": "Point"
+      }
+    },     {
+      "type": "Feature",
+      "properties": {
+        "Place name": "Görlitz", 
+        "Wikipedia article": "https://de.wikipedia.org/wiki/G%C3%B6rlitz"
+      },
+      "geometry": {
+        "coordinates": [14.987222, 51.152778
+          
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

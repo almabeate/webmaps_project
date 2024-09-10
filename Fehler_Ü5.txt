@@ -1,0 +1,10 @@
+Übung 5, Fehler:
+- Chart JS ist nicht responsive 
+- Daten für Chart und Map kamen nicht aus der Datenbank
+- GeoJSON kann man nicht einladen
+- npm start funktioniert nicht
+
+-> API key in seperater Datei speichern und dann Git-ignore dazu schreibenund nicht hochladen
+
+Projekt (Übung 6):
+Frist 06.09!

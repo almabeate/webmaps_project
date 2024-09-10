@@ -1,0 +1,13 @@
+#my_map{
+
+    height: 400px;
+    display: grid;
+    margin: 20;
+    box-sizing: content-box;
+}
+
+
+img {
+    height: auto;
+    width: 150px;
+}

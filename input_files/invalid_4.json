@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Place name": "Leipzig",
+          "Wikipedia article": "https://de.wikipedia.org/wiki/Leipzig"
+        },
+        "geometry": {
+          "coordinates": [
+            12.37475,
+            51.340333
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Place name": "Frankfurt am Main",
+          "Wikipedia article": "https://de.wikipedia.org/wiki/Frankfurt_am_Main"
+        },
+        "geometry": {
+          "coordinates": [
+            8.682222,
+            50.110556
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }
